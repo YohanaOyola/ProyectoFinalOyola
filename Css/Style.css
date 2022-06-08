@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+
+/*index*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+.colorfondo2{
+    background-color: #c218d3;
+}
+.navbar-brand{
+    color: antiquewhite;
+}
+.nav-link active{
+    color: antiquewhite;
+}
+.nav-link{
+    color: antiquewhite;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.socialsContainer img{
+    width: 50px;
+    height: 50px;
+}
+.slide {
+    max-width: 90%;
+    height: 700px;
+    margin: auto;
+}
+.carrouselContainer {
+    margin-top: 2rem;
+}
+.carousel-item img {
+    max-width: 90%;
+    height: 700px;
+    margin: auto;
+    border-radius: 1rem;
+}
+h1{
+    color: aqua;
+  text-align: center;
+}
+
+
+/*estilo Portfolio*/
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "logo logo nav nav"
+    "h1 h1 h1 h1"
+    "img-1 img-2 img-3 img-4"
+    ". footer footer ."
+  
+    ;
+} 
+.color-fondo{
+    background-image: linear-gradient(to right top, #000000, #3b0f25, #6e0950, #9d008a, #c218d3);
+}
+
+
+img{
+    width: 200px;
+    height: 150px ;
+    
+}
+.logo{
+    grid-area: logo;
+}
+nav{
+    grid-area: nav;
+    
+}
+.navBar{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.navBar li{
+   list-style-type: none;
+}
+.navBar li a{
+    text-decoration: none;
+    color: aqua;
+}
+.navBar li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: aqua;
+    grid-area: h1;
+    text-align: center;
+    }
+.img-1{
+    grid-area: img-1;
+}
+
+.img-2{
+    grid-area: img-2;
+}
+.img-3{
+    grid-area: img-3;
+}
+.img-4{
+    grid-area: img-4;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: #000000;
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
